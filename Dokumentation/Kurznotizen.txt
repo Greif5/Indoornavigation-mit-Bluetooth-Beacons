@@ -1,0 +1,14 @@
+Kurznotizen
+	24.08.2017
+	Planung in KW Schritten.
+	z.b.
+	Test-App bis KW 80
+	Einarbeitung in BT bis KW 70
+	
+	Pflichtenheft ca. 10-15 Seiten
+	Nicht zu viel Geschwafel.
+	2-3 Sätze zur Abteilung
+	Rest technische Details nach Priorität wie es funktionieren soll.
+	Warum GPS nicht als Backup geht (Beispiel)
+	
+	Konfiguration, Beispiele und Kommunikation mit dem Beacon
