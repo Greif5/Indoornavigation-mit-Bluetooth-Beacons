@@ -1,0 +1,15 @@
+Benutzerarten
+	Normaler GitHub-User	
+			Ein Normaler User der nichts mit dem Repository zutun hat.
+			Er kann sich das Repository ansehen, Forken und koppieren.
+							
+	Contributer
+			Mitglied des Repositories.
+			Er kann Branches und Pull-Requests erstellen.
+			
+	Maintainer
+			Er ist der Besitzer eines Branches.
+			Jeder Contributer kann nur in seinen eigenen Branch ohne Probleme pushen.
+			Wenn jemand in einen fremden Branch pusht wird ein Pull-Request generiert.
+			Dieser Request muss von dem Maintainer des Branches überprüft und bestätigt werden.
+			
