@@ -3,13 +3,22 @@ Benutzerarten
 			Ein Normaler User der nichts mit dem Repository zutun hat.
 			Er kann sich das Repository ansehen, Forken und koppieren.
 							
-	Contributer
+	Collaborators
 			Mitglied des Repositories.
 			Er kann Branches und Pull-Requests erstellen.
 			
 	Maintainer
 			Er ist der Besitzer eines Branches.
-			Jeder Contributer kann nur in seinen eigenen Branch ohne Probleme pushen.
+			Jeder Collaborator kann nur in seinen eigenen Branch ohne Probleme pushen.
 			Wenn jemand in einen fremden Branch pusht wird ein Pull-Request generiert.
 			Dieser Request muss von dem Maintainer des Branches überprüft und bestätigt werden.
 			
+
+
+[Zitat]
+https://stackoverflow.com/questions/44563131/github-com-how-to-remove-contributor
+
+Contributors are not collaborators.
+
+Collaborators are contributors authorized by the repository owner to have direct (usually write)access to the repository,
+meaning they don't need to fork the repository and they can be assigned to issues among other things.
