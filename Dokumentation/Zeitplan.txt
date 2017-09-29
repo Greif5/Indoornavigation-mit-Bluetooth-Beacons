@@ -1,4 +1,7 @@
 Zeitplan umspäter die Plannung zu planen
 
 
-Zeitaufwand Person Task
+Zeitaufwand Person	Task
+
+0,25h		Seb²	Android-Studio installiert (ohne Download)
+0,5h		Seb²	Infos zu Github-Usern gesammelt
