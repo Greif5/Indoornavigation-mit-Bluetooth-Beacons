@@ -1,33 +1,41 @@
-Download-Link für Git for Windows:
+Installation:
 https://git-for-windows.github.io/
-Version: 2.14.2
+Version 2.14.2
+Einfach runterladen und beim Installieren alle Einstellung auf standard lassen.
 
-Jede aktion wird mit dem Befehl Git ausgeführt.
-Z.B.: git status
-	Zeigt den status des aktuellen Repositories an.
-	Z.B. ob sich Dateien geändert haben, ob sich das Repository geändert hat, etc.
-	
-git clone https://github.com/Greif5/Indoornavigation-mit-Bluetooth-Beacons
-	klont das Repository in das aktuelle Verzeichnis der Konsole.
-	Z.B. D:\...
-	
-git add
-	merkt eine Datei für einen Commit an.
-	Das muss jedesmal gemacht werden wenn ein Commit gemacht werden soll.
 
-git commit
-	erstellt einen commit.
-	Zu einem commit muss auch immer ein Test eingetragen werden.
-	
-git push
-	pusht die aktuell vorgemerkten commits auf das repository.
-	
-git rm
-	löscht ein Verzeichnis / Datei aus dem Gedächtsnis von Git.
-	Es trackt keine Veränderungen an der Datei mehr.
-	
-	
-Notepad statt vim unter Windows
-https://stackoverflow.com/questions/10564/how-can-i-set-up-an-editor-to-work-with-git-on-windows
 
-By configuring git config core.editor notepad, users can now use notepad.exe as their default editor.
+Befehle:
+
+"git help" 
+	zeit das manual
+	
+"git help <command>" 
+	öffnet im interent ein help page zum kommmando
+
+"git clone https://github.com/Greif5/Indoornavigation-mit-Bluetooth-Beacons"
+	Kopiert das komplette reposotorie in den Ordner wo der Befehl ausfgeüfhrt wird. (mit allen branches ect.)
+	
+	
+"git status"
+	- zeigt an auf welchem branch man gerade arbeitet.
+	- zeigt an welche änderungen man auf dem zum akutllen branch gemacht hat.
+	- zeigt die nächten auszuführenden befehele an. 
+	
+	
+"git add hallo/test"
+	Fügt die datei dem aktuellen abbild hinzu (abbild was man später pushen will.
+
+	
+"git commit"
+	Update das file im Reposotory, wenn man git lokal benutz wird allerdings noch "git push" benutzt.
+	Es werden alle files geupdated die vorher mit "add", "rm" ect. hinzugefügt worden.
+
+"git push" 
+	läd alle commit ins online repositry (github).
+
+	
+"git config core.editor notepad++"
+	öffnet notepad für text eingabe z.B. für commit
+	
+
