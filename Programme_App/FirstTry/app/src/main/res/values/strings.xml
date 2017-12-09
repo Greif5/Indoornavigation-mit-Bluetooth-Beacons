@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirstTry</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Map</string>
+    <string name="title_notifications">Beacon Übersicht</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
